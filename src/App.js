@@ -1,11 +1,12 @@
-import React from "react";
-import Header from "./components/Header.js";
-
+import React from 'react';
+import Header from './components/Header.js';
+import SearchForm from './components/SearchForm';
 
 export default function App() {
-  return (
-    <main>
-      <Header />
-    </main>
-  );
+	return (
+		<main>
+			<SearchForm />
+			<Header />
+		</main>
+	);
 }

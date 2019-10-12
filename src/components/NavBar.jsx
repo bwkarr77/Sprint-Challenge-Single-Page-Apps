@@ -7,7 +7,6 @@ import WelcomePage from './WelcomePage';
 const NavBar = () => {
 	return (
 		<div>
-			<h2>NavBar</h2>
 			<div className='NavBar-Banner'>
 				<div className='NavBar'>
 					<NavLink to='/'>Home</NavLink>

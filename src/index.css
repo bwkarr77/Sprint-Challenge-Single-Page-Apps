@@ -44,3 +44,18 @@ header h1 {
 	display: flex;
 	justify-content: space-evenly;
 }
+
+.character-list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.Character-Card {
+	background: rgba(77, 133, 253, 0.61);
+	margin: 10px;
+}
+.card-title {
+	font-weight: bold;
+	font-size: 20px;
+}
