@@ -27,11 +27,6 @@ export default function CharacterList() {
 				<div>
 					{/* ====Import all properties from char into CharacterCard */}
 					<CharacterCard {...char} />
-
-					{/* <h2>{char.name}</h2>
-					<h3>{char.status}</h3>
-					<h3>{char.species}</h3>
-					<h3>{char.type}</h3> */}
 				</div>
 			))}
 		</section>
